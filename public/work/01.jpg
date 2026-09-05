@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f3f4f6"/>
+    </linearGradient>
+    <filter id="shadow1" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="#0f0f11"/>
+  <g transform="translate(100, 60)" filter="url(#shadow1)">
+    <rect width="600" height="380" rx="32" fill="url(#bgGrad1)" stroke="#e5e7eb" stroke-width="1.5"/>
+    <!-- Microsoft 4-color square logo -->
+    <g transform="translate(190, 172)">
+      <rect x="0" y="0" width="18" height="18" fill="#f25022"/>
+      <rect x="22" y="0" width="18" height="18" fill="#7fba00"/>
+      <rect x="0" y="22" width="18" height="18" fill="#00a4ef"/>
+      <rect x="22" y="22" width="18" height="18" fill="#ffb900"/>
+      <text x="56" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#323130">Microsoft</text>
+      <text x="162" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="300" fill="#9ca3af">|</text>
+      <text x="180" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="500" fill="#4b5563">Humans &amp; AI Agents</text>
+    </g>
+  </g>
+</svg>

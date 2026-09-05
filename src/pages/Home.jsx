@@ -1,12 +1,13 @@
-import Nav from '../components/Nav'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import FeaturedWork from '../components/FeaturedWork'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col">
-      <Nav />
-      <main className="flex-1 max-w-6xl w-full mx-auto px-6 py-12">
-        <h1 className="text-3xl font-mono uppercase tracking-wider font-bold">Home</h1>
-      </main>
+    <div className="min-h-screen bg-black text-white flex flex-col pt-16">
+      <Header />
+      <Hero />
+      <FeaturedWork />
     </div>
   )
 }

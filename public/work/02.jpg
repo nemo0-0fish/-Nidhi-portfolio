@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="pingBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#c026d3" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#9333ea" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadowDark" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="#0f0f11"/>
+  <g transform="translate(100, 60)" filter="url(#shadowDark)">
+    <rect width="600" height="380" rx="36" fill="url(#pingBg)" stroke="#27272a" stroke-width="1.5"/>
+    <!-- Glow pulse -->
+    <circle cx="300" cy="180" r="110" fill="url(#glowPurple)" />
+    <!-- Ping concentric ripple -->
+    <circle cx="300" cy="165" r="28" fill="none" stroke="#d946ef" stroke-width="3" opacity="0.6"/>
+    <circle cx="300" cy="165" r="14" fill="none" stroke="#e879f9" stroke-width="3.5" opacity="0.9"/>
+    <circle cx="300" cy="165" r="6" fill="#f0abfc"/>
+    <!-- Ping Typography -->
+    <text x="300" y="225" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'SF Pro Display', sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-1">Ping</text>
+  </g>
+</svg>
